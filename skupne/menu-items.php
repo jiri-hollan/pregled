@@ -7,7 +7,7 @@
 	   <!--<li><a href="https://docs.google.com/spreadsheets/d/1kfkIEJ4aj7FlxVslJgg6EyAGyhfAzSkDnNJkkj-BvWk/edit#gid=0">koledar</a></li>-->
        <!--<li><a href="../oddelek/razpisMeseci.php?pogled=dez">Dežurstva</a> </li>-->'; 
 	 $a1= '';
-	 $a2= '<li><a href="../servis/menuUpload.php">servis</a> </li>
+	 $a2= '<!--<li><a href="../servis/menuUpload.php">servis</a> </li>-->
 	       <li><a href="../servis/nastavitveMenu.php">nastavitve</a> </li>'; 
 	 $a3= '<li><a href="../admin/databaseMenu.php">database</a> </li>'; 
 	 
