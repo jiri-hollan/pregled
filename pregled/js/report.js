@@ -257,6 +257,8 @@ switch (a) {
 }
 }
  }
+ //....konec report function..............................
+ 
 //....................................opisFunction ureja: ekg, RTG, Predhodna terapija, pridružrne bolezni..............
 function opisFunction(m,n)
 {
