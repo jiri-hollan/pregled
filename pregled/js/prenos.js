@@ -256,5 +256,19 @@ switch (a) {
 }
 }
  }
- //....konec report function..............................
+ //....konec prenos function..............................
+ 
+ 
+ 
+function prenos1Function() {
+  //alert("poglej bolnik= " + document.title);
+  document.getElementById("navbar").style.display = "none"; 
+  document.getElementById("prva").style.display = "none"; 
+  document.getElementById("druga").style.display = "none";
+  document.getElementById("tretja").style.display = "block";
+  document.getElementById("predogled").style.display = "none";
+  document.getElementById("nazaj").style.display = "block";
+  document.getElementById("submitFrm").style.display = "none";
+  document.getElementById("najdiZapis").style.display = "none";  
+}
  
