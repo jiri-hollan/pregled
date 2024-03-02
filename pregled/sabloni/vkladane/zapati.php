@@ -25,7 +25,7 @@ echo '
 </div>
      <span class="navSpan" id="nazaj" onclick="nazajFunction()">nazaj</span>
      <span class="navSpan" id="predogled" onclick="return reportFunction('p')">predogled</span>
-     <span class="navSpan" id="natisni" onclick="return reportFunction('t')">natisni</span>   <span class="navSpan" id="prenos" onclick="return reportFunction('pr')">prenos</span>
+     <span class="navSpan" id="natisni" onclick="return reportFunction('t')">natisni</span>   <span class="navSpan" id="prenos" onclick="return prenosFunction('pr')">prenos</span>
      <span class="navSpan" id="pomoc" onclick="pomocFunction()">pomoč</span>
 <?php
 if($gdpr==1){
