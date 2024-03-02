@@ -239,9 +239,9 @@
 
 <div class="celaStran" id="cetrta">
   
-<h2>Anesteziološki pregled</h2>
+<p class="levo" id="obravnavaPr"></p>
 <p class="levo" id="nalepkaPr">nalepka</p> 
-<p class="levo" id="obravnavaPr"></p>  
+<!--<p class="levo" id="obravnavaPr"></p> --> 
 <!--<p class="paragrafiPr">
 <p class="prvigrafiPr">	-->
     <p class="levo" id="diagnozaPr">op.diagnoza</p>

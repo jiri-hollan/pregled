@@ -69,8 +69,9 @@ nalepka = nalepka + "matična številka:. " +  "<b>" + document.getElementById("
 //alert(nalepka);
 document.getElementById("nalepkaPr").innerHTML=nalepka;
 //---------------------------------------------------------------
-obravnava = danes;
-obravnava = "<h3>" + obravnava + " " + "za odd. " + document.getElementById("zaOdd").value + "</h3>" ;
+
+obravnava = danes; 
+obravnava = "<h3>"+"Anesteziološki pregled "+" " + obravnava + " " + "za odd. " + document.getElementById("zaOdd").value + "</h3>" ;
 document.getElementById("obravnavaPr").innerHTML=obravnava;
 diagnoza =  "Op.diagnoza: " +    "<b>" + document.getElementById("dgOperativna").value + "</b>";
 document.getElementById("diagnozaPr").innerHTML=diagnoza;
