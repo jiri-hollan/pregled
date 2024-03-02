@@ -14,9 +14,9 @@
  var x8 = document.getElementById("ime").value;
  var x9 = document.getElementById("priimek").value;
  var x10 = datRojstva;
- var x13 = document.getElementById("opiati").value;
-/*var x11 = document.getElementById("frm")["stevMaticna"].value;
-var x12 = document.getElementById("frm")["stevMaticna"].value;*/
+ var x11 = document.getElementById("opiati").value;
+/*var x11 = document.getElementById("frm")[""].value;
+  var x12 = document.getElementById("frm")[""].value;*/
   if (x1 == "") {
     alert("oddelek mora biti vpisan");
     return false;
@@ -47,14 +47,18 @@ var x12 = document.getElementById("frm")["stevMaticna"].value;*/
   }else if (x10 == "") {
     alert("datum rojstva mora biti vpisan");
     return false;
- }else if (x13 == "") {
+ }else if (x11 == "") {
     alert("ovisnost mora biti opredeljena");
     return false;	
 	
-/*}else if (x11 == "") {
-alert("teza mora biti vpisana");
-return false;
-}*/
+/*}else if (x12 == "") {
+      alert("");
+      return false;	  
+}else if (x13 == "") {
+      alert("");
+      return false;	  
+}
+*/
   }else {
      document.getElementById("prva").style.display = "none"; 
      document.getElementById("druga").style.display = "none";
