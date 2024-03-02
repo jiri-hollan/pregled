@@ -232,3 +232,57 @@
    <div id="zdravnikR">zdravnik</div>
    <div id="navodilaR">navodila</div>
 </div>
+
+<!-- ______________________________________________________________________________________
+
+...........................Četrti del PRENOS................................-->
+
+<div class="celaStran" id="cetrta">
+  <!--<div id="logo"><img  id="imgBol" src="logoSBI.png"></div>-->
+  <div id="logo">
+  </div>  
+  <script>
+    if (!localStorage.getItem("aktivnaBolnisnica") == "") {
+//logo = document.getElementById("logo").innerHTML;
+//alert (logo);
+    boln = localStorage.getItem("aktivnaBolnisnica");
+//alert (boln);
+    logo = '<img  id="';
+    logo = logo + 'imgBol"';
+    logo = logo + 'src="loga/logo' + boln + '.png"';
+    logo = logo + 'alt=' + boln + '>';
+//alert (logo);
+    document.getElementById("logo").innerHTML = logo;
+  }
+   </script>   
+<h1>Anesteziološki pregled</h1>
+<div id="nalepkaR">nalepka</div> 
+<p id="obravnavaR"></p>  
+<div class="paragrafi">
+<div class="prvigrafi">	
+    <p id="diagnozaR">op.diagnoza</p>
+    <p id="operacijaR">predvidevana op.</p>
+    <p id="meritveR">meritve</p>
+    <p id="labR">lab</p>
+  <div class="asmalR">
+    <span style="padding-left:1px;">ASA: </span>
+    <span id="asaR" class="kvadrat" >.</span>
+    <span style="padding-left:10px;">Mallampati:</span> 
+    <span id="mallR" class="kvadrat" >.</span> 
+	
+    <span style="padding-left:10px;">Opiati:</span> 
+    <span id="opiaR" class="kvadrat" >.</span>
+	
+	    <span id="dovisnostiLabelR"style="padding-left:10px;">Druge odvisnosti:</span>
+	    <span id="dovisnostiR" class="kvadrat" >.</span>
+	
+
+  </div>
+  <b><span style="font-size:120%;">Alergija:</span> <span id="alergijaR" style= "font-size:120%;"></span></b>
+ </div>
+  <div class="velka" id="izvidiR">Izvidi in opombe</div>
+</div> 
+   <div id="premedikacijaR"><i>premedikacija</i></div>
+   <div id="zdravnikR">zdravnik</div>
+   <div id="navodilaR">navodila</div>
+</div>
