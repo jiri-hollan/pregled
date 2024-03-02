@@ -8,6 +8,10 @@ h1 {
 p {
   text-align: center; 
 }
+.levo {
+	  text-align: left; 
+}
+
 
 input:required:invalid{
   background-color: yellow;

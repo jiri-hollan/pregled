@@ -239,16 +239,16 @@
 
 <div class="celaStran" id="cetrta">
   
-<h1>Anesteziološki pregled</h1>
-<p id="nalepkaPr">nalepka</p> 
-<p id="obravnavaPr"></p>  
+<h2>Anesteziološki pregled</h2>
+<p class="levo" id="nalepkaPr">nalepka</p> 
+<p class="levo" id="obravnavaPr"></p>  
 <!--<p class="paragrafiPr">
 <p class="prvigrafiPr">	-->
-    <p id="diagnozaPr">op.diagnoza</p>
-    <p id="operacijaPr">predvidevana op.</p>
-    <p id="meritvePr">meritve</p>
-    <p id="labPr">lab</p>
-  <p class="asmalPr">
+    <p class="levo" id="diagnozaPr">op.diagnoza</p>
+    <p class="levo" id="operacijaPr">predvidevana op.</p>
+    <p class="levo" id="meritvePr">meritve</p>
+    <p class="levo" id="labPr">lab</p>
+  <p class="levo" class="asmalPr">
     <span style="padding-left:1px;">ASA: </span>
     <span id="asaPr" class="kvadrat" >.</span>
     <span style="padding-left:10px;">Mallampati:</span> 
@@ -264,9 +264,9 @@
   </p>
   <b><span style="font-size:120%;">Alergija:</span> <span id="alergijaPr" style= "font-size:120%;"></span></b>
  </p>
-  <p class="velka" id="izvidiPr">Izvidi in opombe</p>
+  <p class="levo" class="velka" id="izvidiPr">Izvidi in opombe</p>
 </p> 
-   <p id="premedikacijaPr"><i>premedikacija</i></p>
-   <p id="zdravnikPr">zdravnik</p>
-   <p id="navodilaPr">navodila</p>
+   <p class="levo" id="premedikacijaPr"><i>premedikacija</i></p>
+   <p class="levo" id="zdravnikPr">zdravnik</p>
+   <p class="levo" id="navodilaPr">navodila</p>
 </div>

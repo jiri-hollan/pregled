@@ -19,5 +19,6 @@
 <script src="js/sklepi.js?<?php echo time(); ?>"></script>
 <link rel="stylesheet" type="text/css" href="css/novPolnjenje.css?<?php echo time(); ?>">
 <link rel="stylesheet" type="text/css" href="css/premedikacijaTisk.css?<?php echo time(); ?>">
+<link rel="stylesheet" type="text/css" href="css/prenos.css?<?php echo time(); ?>">
 </head>
 <body onload="vpisFunction()">
