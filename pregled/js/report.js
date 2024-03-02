@@ -313,6 +313,7 @@ function ogledFunction() {
   document.getElementById("prva").style.display = "none"; 
   document.getElementById("druga").style.display = "none";
   document.getElementById("tretja").style.display = "block";
+    document.getElementById("cetrta").style.display = "none";
   document.getElementById("predogled").style.display = "none";
   document.getElementById("nazaj").style.display = "block";
   document.getElementById("submitFrm").style.display = "block";

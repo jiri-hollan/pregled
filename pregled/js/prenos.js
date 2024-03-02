@@ -262,12 +262,20 @@ switch (a) {
  
 function prenos1Function() {
   //alert("poglej bolnik= " + document.title);
-  document.getElementById("navbar").style.display = "none"; 
+  document.getElementById("navbar").style.display = "block"; 
   document.getElementById("prva").style.display = "none"; 
   document.getElementById("druga").style.display = "none";
-  document.getElementById("tretja").style.display = "block";
-  document.getElementById("predogled").style.display = "none";
-  document.getElementById("nazaj").style.display = "block";
+  document.getElementById("tretja").style.display = "none";
+  document.getElementById("cetrta").style.display = "block"; 
+  document.getElementById("predogled").style.display = "block";
+    document.getElementById("natisni").style.display = "none";
+    document.getElementById("pomoc").style.display = "none";
+      document.getElementById("buttonDomov").style.display = "none";
+	  document.getElementById("odjava").style.display = "none";
+	  document.getElementById("novB").style.display = "none";	  
+	  document.getElementById("prenos").style.display = "none";	  
+	  
+  document.getElementById("nazaj").style.display = "none";
   document.getElementById("submitFrm").style.display = "none";
   document.getElementById("najdiZapis").style.display = "none";  
 }
