@@ -324,7 +324,7 @@ function pomocFunction() {
  prompt("Če ni nastavljena pot do  ciljne mape za PDF jo nastavi.\nSkopiraj spodnji naslov in ga prilepi kot pot.", pot );
 }
 
-function prenosFunction() {
+function prenos1Function() {
   //alert("poglej bolnik= " + document.title);
   document.getElementById("navbar").style.display = "none"; 
   document.getElementById("prva").style.display = "none"; 

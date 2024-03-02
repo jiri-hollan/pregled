@@ -241,9 +241,9 @@
   
 <h1>Anesteziološki pregled</h1>
 <p id="nalepkaPr">nalepka</p> 
-<p id="obravnavaPr"></p>  
-<p class="paragrafiPr">
-<p class="prvigrafiPr">	
+<<p id="obravnavaPr"></p>  
+<!--<p class="paragrafiPr">
+<p class="prvigrafiPr">	-->
     <p id="diagnozaPr">op.diagnoza</p>
     <p id="operacijaPr">predvidevana op.</p>
     <p id="meritvePr">meritve</p>
