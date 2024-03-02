@@ -240,7 +240,7 @@
 <div class="celaStran" id="cetrta">
   
 <h1>Anesteziološki pregled</h1>
-<div id="nalepkaPr">nalepka</div> 
+<p id="nalepkaPr">nalepka</p> 
 <p id="obravnavaPr"></p>  
 <div class="paragrafi">
 <div class="prvigrafi">	
@@ -264,9 +264,9 @@
   </div>
   <b><span style="font-size:120%;">Alergija:</span> <span id="alergijaPr" style= "font-size:120%;"></span></b>
  </div>
-  <div class="velka" id="izvidiPr">Izvidi in opombe</div>
+  <p class="velka" id="izvidiPr">Izvidi in opombe</p>
 </div> 
-   <div id="premedikacijaPr"><i>premedikacija</i></div>
-   <div id="zdravnikPr">zdravnik</div>
-   <div id="navodilaPr">navodila</div>
+   <p id="premedikacijaPr"><i>premedikacija</i></p>
+   <p id="zdravnikPr">zdravnik</p>
+   <p id="navodilaPr">navodila</p>
 </div>
