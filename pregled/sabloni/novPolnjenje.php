@@ -238,23 +238,7 @@
 ...........................Četrti del PRENOS................................-->
 
 <div class="celaStran" id="cetrta">
-  <!--<div id="logo"><img  id="imgBol" src="logoSBI.png"></div>-->
-  <div id="logo">
-  </div>  
-  <script>
-    if (!localStorage.getItem("aktivnaBolnisnica") == "") {
-//logo = document.getElementById("logo").innerHTML;
-//alert (logo);
-    boln = localStorage.getItem("aktivnaBolnisnica");
-//alert (boln);
-    logo = '<img  id="';
-    logo = logo + 'imgBol"';
-    logo = logo + 'src="loga/logo' + boln + '.png"';
-    logo = logo + 'alt=' + boln + '>';
-//alert (logo);
-    document.getElementById("logo").innerHTML = logo;
-  }
-   </script>   
+  
 <h1>Anesteziološki pregled</h1>
 <div id="nalepkaR">nalepka</div> 
 <p id="obravnavaR"></p>  
