@@ -63,8 +63,8 @@ function prenosFunction(a){
      document.getElementById("cetrta").style.display = "block";	 
 
 nalepka = document.getElementById("priimek").value;
-nalepka = "priimek in ime:.... " + "<b>" + nalepka + " " + document.getElementById("ime").value + "</b>" + "<br>";
-nalepka = nalepka + "datum rojstva:..... " +  "<b>" + datRojstva + "</b>" + "<br>" ;
+nalepka = "priimek in ime:  " + "<b>" + nalepka + " " + document.getElementById("ime").value + "</b>" + "  ";
+nalepka = nalepka + "datum rojstva:  " +  "<b>" + datRojstva + "</b>" + "  " ;
 nalepka = nalepka + "matična številka:. " +  "<b>" + document.getElementById("stevMaticna").value + "</b>" ;
 //alert(nalepka);
 document.getElementById("nalepkaPr").innerHTML=nalepka;
