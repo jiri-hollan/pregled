@@ -8,6 +8,7 @@
 <link rel="shortcut icon" href="../favicon.ico?<?php echo time(); ?>">
 <script src="js/vpis.js?<?php echo time(); ?>"></script>
 <script src="js/report.js?<?php echo time(); ?>"></script>
+<script src="js/prenos.js?<?php echo time(); ?>"></script>
 <script src="js/preklopCss.js?<?php echo time(); ?>"></script>
 <script src="js/odjava.js?<?php echo time(); ?>"></script>
 <script src="js/evaluacija.js?<?php echo time(); ?>"></script>
