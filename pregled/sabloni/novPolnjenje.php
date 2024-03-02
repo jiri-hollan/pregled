@@ -240,33 +240,33 @@
 <div class="celaStran" id="cetrta">
   
 <h1>Anesteziološki pregled</h1>
-<div id="nalepkaR">nalepka</div> 
-<p id="obravnavaR"></p>  
+<div id="nalepkaPr">nalepka</div> 
+<p id="obravnavaPr"></p>  
 <div class="paragrafi">
 <div class="prvigrafi">	
-    <p id="diagnozaR">op.diagnoza</p>
-    <p id="operacijaR">predvidevana op.</p>
-    <p id="meritveR">meritve</p>
-    <p id="labR">lab</p>
-  <div class="asmalR">
+    <p id="diagnozaPr">op.diagnoza</p>
+    <p id="operacijaPr">predvidevana op.</p>
+    <p id="meritvePr">meritve</p>
+    <p id="labPr">lab</p>
+  <div class="asmalPr">
     <span style="padding-left:1px;">ASA: </span>
-    <span id="asaR" class="kvadrat" >.</span>
+    <span id="asaPr" class="kvadrat" >.</span>
     <span style="padding-left:10px;">Mallampati:</span> 
-    <span id="mallR" class="kvadrat" >.</span> 
+    <span id="mallPr" class="kvadrat" >.</span> 
 	
     <span style="padding-left:10px;">Opiati:</span> 
-    <span id="opiaR" class="kvadrat" >.</span>
+    <span id="opiaPr" class="kvadrat" >.</span>
 	
-	    <span id="dovisnostiLabelR"style="padding-left:10px;">Druge odvisnosti:</span>
-	    <span id="dovisnostiR" class="kvadrat" >.</span>
+	    <span id="dovisnostiLabelPr"style="padding-left:10px;">Druge odvisnosti:</span>
+	    <span id="dovisnostiPr" class="kvadrat" >.</span>
 	
 
   </div>
-  <b><span style="font-size:120%;">Alergija:</span> <span id="alergijaR" style= "font-size:120%;"></span></b>
+  <b><span style="font-size:120%;">Alergija:</span> <span id="alergijaPr" style= "font-size:120%;"></span></b>
  </div>
-  <div class="velka" id="izvidiR">Izvidi in opombe</div>
+  <div class="velka" id="izvidiPr">Izvidi in opombe</div>
 </div> 
-   <div id="premedikacijaR"><i>premedikacija</i></div>
-   <div id="zdravnikR">zdravnik</div>
-   <div id="navodilaR">navodila</div>
+   <div id="premedikacijaPr"><i>premedikacija</i></div>
+   <div id="zdravnikPr">zdravnik</div>
+   <div id="navodilaPr">navodila</div>
 </div>
