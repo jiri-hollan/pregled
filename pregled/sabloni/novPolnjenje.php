@@ -266,7 +266,8 @@
  </p>
   <p class="levo" class="velka" id="izvidiPr">Izvidi in opombe</p>
 </p> 
-   <p class="levo" id="premedikacijaPr"><i>premedikacija</i></p>
+   <!--<p class="levo" id="premedikacijaPr"><i>premedikacija</i></p>-->
+   <p class="levo" ><span class="nadpis">Premedikacija: </span><span id="premedikacijaPr"></span></p>  
    <p class="levo" id="navodilaPr">navodila</p>
    <p class="levo" id="zdravnikPr">zdravnik</p>
 

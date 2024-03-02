@@ -215,15 +215,15 @@ var opis = ekg + rtg + prid + pred + izvidi + sklep;
 //alert(opis);
 document.getElementById("izvidiPr").innerHTML= opis;
 //....................premedikacija..........................................................
-var premedikacija = "Premedikacija ";
+var premedikacija = " ";
 var vecer = document.getElementById("premedVecer").value;
 var jutri = document.getElementById("premedPredOp").value;
 
 if (vecer.length > 0) {
-  premedikacija = premedikacija + "  " +  "zvečer: " + vecer;
+  premedikacija = premedikacija + "  " +  "zvečer " + vecer;
 }
 if (jutri.length > 0) {
-  premedikacija = premedikacija + ", " +  "pred op.: " + jutri;
+  premedikacija = premedikacija + ", " +  "pred op. " + jutri;
 }
 
 document.getElementById("premedikacijaPr").innerHTML= premedikacija;
