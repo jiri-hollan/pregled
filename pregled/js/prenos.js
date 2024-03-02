@@ -265,7 +265,8 @@ function prenos1Function() {
   document.getElementById("navbar").style.display = "none"; 
   document.getElementById("prva").style.display = "none"; 
   document.getElementById("druga").style.display = "none";
-  document.getElementById("tretja").style.display = "block";
+  document.getElementById("tretja").style.display = "none";
+   document.getElementById("cetrta").style.display = "block"; 
   document.getElementById("predogled").style.display = "none";
   document.getElementById("nazaj").style.display = "block";
   document.getElementById("submitFrm").style.display = "none";
