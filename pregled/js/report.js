@@ -251,7 +251,9 @@ switch (a) {
  case "p": //predogled
     ogledFunction();
     break;	
-  
+  case "pr": //prenos
+    prenosFunction();
+    break;	 
   default:
     text = "No value found";
 }
