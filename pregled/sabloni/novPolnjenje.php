@@ -242,13 +242,13 @@
 <h1>Anesteziološki pregled</h1>
 <p id="nalepkaPr">nalepka</p> 
 <p id="obravnavaPr"></p>  
-<div class="paragrafi">
-<div class="prvigrafi">	
+<p class="paragrafi">
+<p class="prvigrafi">	
     <p id="diagnozaPr">op.diagnoza</p>
     <p id="operacijaPr">predvidevana op.</p>
     <p id="meritvePr">meritve</p>
     <p id="labPr">lab</p>
-  <div class="asmalPr">
+  <p class="asmalPr">
     <span style="padding-left:1px;">ASA: </span>
     <span id="asaPr" class="kvadrat" >.</span>
     <span style="padding-left:10px;">Mallampati:</span> 
@@ -261,11 +261,11 @@
 	    <span id="dovisnostiPr" class="kvadrat" >.</span>
 	
 
-  </div>
+  </p>
   <b><span style="font-size:120%;">Alergija:</span> <span id="alergijaPr" style= "font-size:120%;"></span></b>
- </div>
+ </p>
   <p class="velka" id="izvidiPr">Izvidi in opombe</p>
-</div> 
+</p> 
    <p id="premedikacijaPr"><i>premedikacija</i></p>
    <p id="zdravnikPr">zdravnik</p>
    <p id="navodilaPr">navodila</p>
