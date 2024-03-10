@@ -238,35 +238,27 @@
 ...........................Četrti del PRENOS................................-->
 
 <div class="celaStran" id="cetrta">
-  
+<button class="desno" onclick="ogledFunction()">X</button> 
 <p class="levo" id="obravnavaPr"></p>
 <p class="levo" id="nalepkaPr">nalepka</p> 
-<!--<p class="levo" id="obravnavaPr"></p> --> 
-<!--<p class="paragrafiPr">
-<p class="prvigrafiPr">	-->
-    <p class="levo" id="diagnozaPr">op.diagnoza</p>
-    <p class="levo" id="operacijaPr">predvidevana op.</p>
-    <p class="levo" id="meritvePr">meritve</p>
-    <p class="levo" id="labPr">lab</p>
-  <p class="levo" class="asmalPr">
+<p class="levo" id="diagnozaPr">op.diagnoza</p>
+<p class="levo" id="operacijaPr">predvidevana op.</p>
+<p class="levo" id="meritvePr">meritve</p>
+<p class="levo" id="labPr">lab</p>
+<p class="levo" class="asmalPr">
     <span style="padding-left:1px;">ASA: </span>
     <span id="asaPr" class="kvadrat" >.</span>
     <span style="padding-left:10px;">Mallampati:</span> 
     <span id="mallPr" class="kvadrat" >.</span> 
-	
     <span style="padding-left:10px;">Opiati:</span> 
     <span id="opiaPr" class="kvadrat" >.</span>
-	
-	    <span id="dovisnostiLabelPr"style="padding-left:10px;">Druge odvisnosti:</span>
-	    <span id="dovisnostiPr" class="kvadrat" >.</span>
-	
-
-  </p>
-  <b><span style="font-size:120%;">Alergija:</span> <span id="alergijaPr" style= "font-size:120%;"></span></b>
+	<span id="dovisnostiLabelPr"style="padding-left:10px;">Druge odvisnosti:</span>
+	<span id="dovisnostiPr" class="kvadrat" >.</span>
+</p>
+<p class="levo"><b><span style="font-size:120%;">Alergija:</span> <span id="alergijaPr" style= "font-size:120%;"></span></b>
  </p>
   <p class="levo" class="velka" id="izvidiPr">Izvidi in opombe</p>
 </p> 
-   <!--<p class="levo" id="premedikacijaPr"><i>premedikacija</i></p>-->
    <p class="levo" ><span class="nadpis">Premedikacija: </span><span id="premedikacijaPr"></span></p>  
    <p class="levo" id="navodilaPr">navodila</p>
    <p class="levo" id="zdravnikPr">zdravnik</p>

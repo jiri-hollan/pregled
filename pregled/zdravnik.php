@@ -31,7 +31,7 @@ ________________________________________________________________________________
   <datalist id="zdravniki">  
     <option value='ime zdravnika'>    
   </datalist>
-<p> <button ​ onclick="naprejFunction()">Naprej</button>
+<p> <button onclick="naprejFunction()">Naprej</button>
 </div>
 <div class="navbar" id="navBolnisnice" style='display:z-index:1;'>
 <?php
