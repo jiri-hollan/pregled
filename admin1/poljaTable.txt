@@ -37,6 +37,6 @@ alergija VARCHAR(100),
 izvidiInOpombe BLOB(2147483647),
 premedVecer VARCHAR(100),
 premedPredOp VARCHAR(100),
-navodila VARCHAR(255),
+premedikacija VARCHAR(255),
 sklep VARCHAR(255),
 status CHARACTER(15)

@@ -229,10 +229,10 @@ if (jutri.length > 0) {
 
 document.getElementById("premedikacijaPr").innerHTML= premedikacija;
 
-//....................navodila................................................................
-var navodila = document.getElementById("navodila").value;
+//....................premedikacija................................................................
+var premedikacija = document.getElementById("premedikacija").value;
 //alert(alergija);
-document.getElementById("navodilaPr").innerHTML= navodila;
+document.getElementById("premedikacijaPr").innerHTML= premedikacija;
 //......................zdravnik...............................................................
 
 document.getElementById("zdravnikPr").innerHTML = document.getElementById("imeZdravnika").value;
