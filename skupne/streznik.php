@@ -6,6 +6,6 @@
           if ( $_SERVER['SERVER_NAME']=="localhost") {
               $this->username = "root";
               $this->password = "";
-              $this->dbname = "premedikacija";
+              $this->dbname = "apregled";
             }
 ?>
