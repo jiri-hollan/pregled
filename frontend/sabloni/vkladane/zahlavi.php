@@ -19,4 +19,4 @@
   <a href="../frontend/prihlaseni.php?r=profil">Moj profil</a>
   <span id="uname">odjavljen</span>
 </div>
- <?php require_once('sabloni/oznamovaci-oblast.php');  ?> 
+<?php require_once('sabloni/oznamovaci-oblast.php');  ?> 

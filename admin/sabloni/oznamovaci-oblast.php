@@ -1,7 +1,7 @@
 <?php if (!empty($chyba) || !empty($_GET['chyba'])):  ?>
    <div class="alert alert-danger">
    oznamovaci oblast admin
-   <?php echo htmlspecialchars(!empty($chyba) ? $chyba : $_GET['chyba']); ?>
+<?php echo htmlspecialchars(!empty($chyba) ? $chyba : $_GET['chyba']); ?>
    </div>
 <?php 
   endif; 

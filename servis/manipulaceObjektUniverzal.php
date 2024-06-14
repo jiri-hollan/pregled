@@ -1,4 +1,4 @@
- <?php 
+<?php 
  require_once('sabloni/vkladane/zahlavi.php');
  //require_once '../skupne/sabloni/zahlavi.php';
 /* V tom failu so funkcije za spreminjanje tabele databaze*/

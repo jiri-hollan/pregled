@@ -1,4 +1,4 @@
- <?php
+<?php
 session_start();
 require_once('../skupne/database.php');
 global $r;
