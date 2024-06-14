@@ -5,7 +5,7 @@ require_once'database.php';
 $database=new Database;
 $database->testirajBolnik();
 if($database->bolnikObstaja==2){
-$tabulka="bolnikOmejitve";
+$tabulka="omejitveTbl";
 $sloupce=["razlog", "nivo"];
 $podminka=["razlog"=>"gdpr"];
 $database= new Database;

@@ -67,7 +67,7 @@ case "omejitve":
 $definice= "id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     razlog VARCHAR(30) NOT NULL,
     nivo INT(3) NOT NULL";
-$databaseGloboka->naredi('bolnikOmejitve', $definice);
+$databaseGloboka->naredi('omejitveTbl', $definice);
 
 break;
 
