@@ -24,20 +24,20 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktura tabele `bolnikomejitve`
+-- Struktura tabele `omejitveTbl`
 --
 
-CREATE TABLE `bolnikomejitve` (
+CREATE TABLE `omejitveTbl` (
   `id` int(3) UNSIGNED NOT NULL,
   `razlog` varchar(30) NOT NULL,
   `nivo` int(3) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Odloži podatke za tabelo `bolnikomejitve`
+-- Odloži podatke za tabelo `omejitveTbl`
 --
 
-INSERT INTO `bolnikomejitve` (`id`, `razlog`, `nivo`) VALUES
+INSERT INTO `omejitveTbl` (`id`, `razlog`, `nivo`) VALUES
 (1, 'gdpr', 1);
 
 --
@@ -45,9 +45,9 @@ INSERT INTO `bolnikomejitve` (`id`, `razlog`, `nivo`) VALUES
 --
 
 --
--- Indeksi tabele `bolnikomejitve`
+-- Indeksi tabele `omejitveTbl`
 --
-ALTER TABLE `bolnikomejitve`
+ALTER TABLE `omejitveTbl`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -55,9 +55,9 @@ ALTER TABLE `bolnikomejitve`
 --
 
 --
--- AUTO_INCREMENT tabele `bolnikomejitve`
+-- AUTO_INCREMENT tabele `omejitveTbl`
 --
-ALTER TABLE `bolnikomejitve`
+ALTER TABLE `omejitveTbl`
   MODIFY `id` int(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
