@@ -184,23 +184,20 @@ foreach (json_decode($this->dataPreg) as $key) {
 		//echo $_REQUEST["tabulka"];
 	echo "<table id='osebe' style='border: solid 1px black;'>";
 	switch ($_REQUEST["tabulka"]){
-		  case "pregledovalciTbl":
-    echo "<tr><th>Id</th><th>bolnišnica</><th>ime</th><th>priimek</th><th>status</th></tr>";
+		case "pregledovalciTbl":
+		echo "<tr><th>Id</th><th>bolnišnica</><th>ime</th><th>priimek</th><th>status</th></tr>";
     break;
-	case "sklepiTbl":
-    echo "<tr><th>Id</th><th>bolnišnica</><th>sklep</th><th>status</th></tr>";
+		case "sklepiTbl":
+		echo "<tr><th>Id</th><th>bolnišnica</><th>sklep</th><th>status</th></tr>";
     break;
-	
-	case "sklepiTbl":
-    echo "<tr><th>Id</th><th>bolnišnica</><th>ime</th><th>ocena</th><th>status</th></tr>";
+		case "sklepiTbl":
+		echo "<tr><th>Id</th><th>bolnišnica</><th>ime</th><th>ocena</th><th>status</th></tr>";
     break;
-	
-	
-	case "limitiTbl":
-    echo "<tr><th>Id</th><th>bolnišnica</><th>skupina</th><th>ime</th><th>min</th><th>max</th></tr>";
+		case "limitiTbl":
+		echo "<tr><th>Id</th><th>bolnišnica</><th>skupina</th><th>ime</th><th>min</th><th>max</th></tr>";
     break;
-	default:
-	echo "";
+		default:
+		echo "";
 	}
         parent::__construct($it, self::LEAVES_ONLY);
     }
