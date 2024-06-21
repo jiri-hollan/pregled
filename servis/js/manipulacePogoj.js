@@ -47,7 +47,51 @@ switch(akce) {
 			document.getElementById("tabSent").innerHTML =  '<input type="hidden" name="tabulka" value="'+tabulka+'">';
 		document.getElementById("posli").innerHTML = '<input class="submit" type="submit" name="submit" value="potrdi"><input type="reset" name="reset" value="Reset">'; //submit+reset		
 			
-			break;			
+			break;		
+	case "ocenaTbl":
+			//alert(tabulka);	
+	 bolnisnica= '<input type="text" id="bolnisnicaId" name="bolnisnica" value="" placeholder="Bolnišnica" required>';
+	ime= '<input type="text" id="imeId" name="ime" value="" placeholder="tveganje" required>';
+    ocena= '<input type="text" id="ocenaId" name="ocena" value="" placeholder="ocena" required>';
+    status= '<input type="int" id="statusId" name="status" value="" placeholder="status" required>';
+    document.getElementById("demo").innerHTML = bolnisnica + ime + ocena + status;
+	document.getElementById("tabSent").innerHTML =  '<input type="hidden" name="tabulka" value="'+tabulka+'">';
+	document.getElementById("posli").innerHTML = '<input class="submit" type="submit" name="submit" value="potrdi"><input type="reset" name="reset" value="Reset">'; //submit+reset
+			
+			break;	
+	case "limitiTbl":
+			//alert(tabulka);	
+	bolnisnica= '<input type="text" id="bolnisnicaId" name="bolnisnica" value="" placeholder="Bolnišnica" required>'; 
+    skupina= '<input type="text" id="skupinaId" name="skupina" value="" placeholder="skupina" required>';
+    ime= '<input type="int" id="imeId" name="ime" value="" placeholder="ime" required>';
+    min= '<input type="int" id="minId" name="min" value="" placeholder="min" required>';
+    max= '<input type="int" id="maxId" name="max" value="" placeholder="max" required>';
+    document.getElementById("demo").innerHTML = bolnisnica + skupina + ime + min + max;
+	document.getElementById("tabSent").innerHTML =  '<input type="hidden" name="tabulka" value="'+tabulka+'">';
+	document.getElementById("posli").innerHTML = '<input class="submit" type="submit" name="submit" value="potrdi"><input type="reset" name="reset" value="Reset">'; //submit+reset
+			
+			break;	
+	case "sklepiTbl":
+			//alert(tabulka);	
+	bolnisnica= '<input type="text" id="bolnisnicaId" name="bolnisnica" value="" placeholder="Bolnišnica" required>';
+    sklep= '<input type="text" id="sklepId" name="sklep" value="" placeholder="sklep" required>';
+    status= '<input type="int" id="statusId" name="status" value="" placeholder="status" required>';
+    document.getElementById("demo").innerHTML = bolnisnica + sklep + status;
+	document.getElementById("tabSent").innerHTML =  '<input type="hidden" name="tabulka" value="'+tabulka+'">';
+	document.getElementById("posli").innerHTML = '<input class="submit" type="submit" name="submit" value="potrdi"><input type="reset" name="reset" value="Reset">'; //submit+reset
+
+            break;	
+		case "uporabnikiTbl":
+	//alert(tabulka);
+     bolnisnica= '<input type="text" id="bolnisnicaId" name="bolnisnica" value="" placeholder="Bolnišnica" required>';
+    ime= '<input type="text" id="imeId" name="ime" value="" placeholder="ime" required>';
+    priimek= '<input type="text" id="priimekId" name="priimek" value="" placeholder="priimek" required>';
+    status= '<input type="int" id="statusId" name="status" value="" placeholder="status" required>';
+    document.getElementById("demo").innerHTML = bolnisnica + ime + priimek + status;
+	document.getElementById("tabSent").innerHTML =  '<input type="hidden" name="tabulka" value="'+tabulka+'">';
+	document.getElementById("posli").innerHTML = '<input class="submit" type="submit" name="submit" value="potrdi"><input type="reset" name="reset" value="Reset">'; //submit+reset
+	        break;			
+						
 			
 	}
     break;
