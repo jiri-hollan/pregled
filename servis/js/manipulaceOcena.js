@@ -1,5 +1,7 @@
-var tabulka="ocenaTbl";
-function izborFunction(akce) {
+//var tabulka="ocenaTbl";
+let tabulka_global;
+function izborFunction(akce, tabulka) {
+	 tabulka_global=tabulka; 
   document.getElementById("akceId").value = akce;
 switch(akce) {
   case "vyber":
@@ -53,5 +55,5 @@ var y = event.composedPath()[1];
 row_value = y.cells[0].innerHTML;
   document.getElementById("demo3").innerHTML = "id v bazi je= " + row_value ;  
  }//od if 
- window.location.href = "manipulaceObjektUniverzal.php?akce=" + x.innerHTML + "&id=" + row_value+ "&tabulka="+ tabulka;  
+ window.location.href = "manipulaceObjektUniverzal.php?akce=" + x.innerHTML + "&id=" + row_value+ "&tabulka="+  tabulka_global;  
 }//od function(e)
