@@ -281,7 +281,7 @@ echo '<script src="js/manipulaceOcena.js?<?php echo time(); ?>"></script>';
 break;
 
 case "limitiTbl":
-echo '<script src="js/manipulacePogoj.js?<?php echo time(); ?>"></script>'; 
+echo '<script src="js/manipulaceLimiti.js?<?php echo time(); ?>"></script>'; 
 break;
 }
 }
