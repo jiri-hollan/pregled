@@ -6,7 +6,7 @@ require_once('administrace.php');
 class Manipulace extends Administrace {
    public function __construct() {
 	       parent::__construct();		   
-  if (isset($_SESSION["upstatus"]) && $_SESSION["status"] == 3)  {
+  if (isset($_SESSION["upstatus"]) && $_SESSION["upstatus"] == 3)  {
 $nazaj="../admin/databaseMenu.php";
 echo '
 <div id="manipulace">

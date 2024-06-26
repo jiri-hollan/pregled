@@ -46,10 +46,10 @@ case "uredi":
     //$uname=test_input($_POST["uname"]);	
     $ime = test_input($_POST["ime"]);
 	$priimek = test_input($_POST["priimek"]);
-	$status = test_input($_POST["status"]);
+	$upstatus = test_input($_POST["upstatus"]);
 	$pristop = test_input($_POST["pristop"]);	
 	$podminka = array("id"=>$id);
-    $data= array("ime"=>$ime, "priimek"=>$priimek, "status"=>$upstatus, "pristop"=>$pristop);	
+    $data= array("ime"=>$ime, "priimek"=>$priimek, "upstatus"=>$upstatus, "pristop"=>$pristop);	
 	$aktualizuj = new database($tabulka,$data,$podminka);
 	$aktualizovano=$aktualizuj->aktualizuj($tabulka,$data,$podminka);
    break;

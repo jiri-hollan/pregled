@@ -61,14 +61,14 @@ if (isset($_REQUEST["akce"])) {
         $this->tabulka = $tabulka; 
 		 switch($this->tabulka){
 	  case "pregledovalciTbl":
-	  $this->dataPreg= '["bolnisnica", "ime", "priimek", "status"]';
+	  $this->dataPreg= '["bolnisnica", "ime", "priimek", "pregledovalciStatus"]';
 	  break;
 	  case "sklepiTbl":
-	  $this->dataPreg= '["bolnisnica", "sklep", "status"]';
+	  $this->dataPreg= '["bolnisnica", "sklep", "sklepiStatus"]';
 	  break;
 	  
 	  case "ocenaTbl":
-	  $this->dataPreg= '["bolnisnica", "ime", "ocena", "status"]';
+	  $this->dataPreg= '["bolnisnica", "ime", "ocena", "ocenaStatus"]';
 	  break;
 	  
 	  case "limitiTbl":
@@ -85,7 +85,7 @@ if (isset($_REQUEST["akce"])) {
   public $id;
   public $ime;
   public $priimek;
-  public $status; 
+  //public $status; 
   public function __construct($bolnisnica, $tabulka) {
 	parent::__construct($bolnisnica, $tabulka);	
 	echo "case uredi <br>";
@@ -185,13 +185,13 @@ foreach (json_decode($this->dataPreg) as $key) {
 	echo "<table id='osebe' style='border: solid 1px black;'>";
 	switch ($_REQUEST["tabulka"]){
 		case "pregledovalciTbl":
-		echo "<tr><th>Id</th><th>bolnišnica</><th>ime</th><th>priimek</th><th>status</th></tr>";
+		echo "<tr><th>Id</th><th>bolnišnica</><th>ime</th><th>priimek</th><th>pregledovalciStatus</th></tr>";
     break;
 		case "sklepiTbl":
-		echo "<tr><th>Id</th><th>bolnišnica</><th>sklep</th><th>status</th></tr>";
+		echo "<tr><th>Id</th><th>bolnišnica</><th>sklep</th><th>sklepiStatus</th></tr>";
     break;
-		case "sklepiTbl":
-		echo "<tr><th>Id</th><th>bolnišnica</><th>ime</th><th>ocena</th><th>status</th></tr>";
+		case "ocenaTbl":
+		echo "<tr><th>Id</th><th>bolnišnica</><th>ime</th><th>ocena</th><th>ocenaStatus</th></tr>";
     break;
 		case "limitiTbl":
 		echo "<tr><th>Id</th><th>bolnišnica</><th>skupina</th><th>ime</th><th>min</th><th>max</th></tr>";

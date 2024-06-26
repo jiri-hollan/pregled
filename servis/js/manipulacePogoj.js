@@ -22,11 +22,11 @@ switch(akce) {
     geslo= '<input type="int" id="gesloId" name="geslo" value="" placeholder="geslo" >';
     ime= '<input type="int" id="imeId" name="ime" value="" placeholder="ime" required>';	
     priimek= '<input type="int" id="priimekId" name="priimek" value="" placeholder="priimek" required>';
-    status= '<input type="int" id="statusId" name="status" value="" placeholder="status" required>';
+    upstatus= '<input type="int" id="upstatusId" name="upstatus" value="" placeholder="upstatus" required>';
     pristop= '<input type="int" id="pristopId" name="pristop" value="" placeholder="pristop" >';
 
 	
-    document.getElementById("demo").innerHTML = email + uname + geslo + ime + priimek + status + pristop;
+    document.getElementById("demo").innerHTML = email + uname + geslo + ime + priimek + upstatus + pristop;
 	document.getElementById("tabSent").innerHTML =  '<input type="hidden" name="tabulka" value="'+tabulka+'">';
 	document.getElementById("posli").innerHTML = '<input class="submit" type="submit" name="submit" value="potrdi"><input type="reset" name="reset" value="Reset">'; //submit+reset
 	        break;
@@ -42,8 +42,8 @@ switch(akce) {
 			//alert(tabulka);	
 	 mesto= '<input type="text" id="mestoId" name="mesto" value="" placeholder="mesto" required>';
      nazivB= '<input type="text" id="nazivBId" name="nazivB" value="" placeholder="nazivB" >';    
-     status= '<input type="text" id="statusBId" name="status" value="" placeholder="status" >'; 	 
-	 document.getElementById("demo").innerHTML = mesto+nazivB+status;		
+     bolnisnicaStatus= '<input type="text" id="statusBId" name="bolnisnicaStatus" value="" placeholder="bolnisnicaStatus" >'; 	 
+	 document.getElementById("demo").innerHTML = mesto+nazivB+bolnisnicaStatus;		
 			document.getElementById("tabSent").innerHTML =  '<input type="hidden" name="tabulka" value="'+tabulka+'">';
 		document.getElementById("posli").innerHTML = '<input class="submit" type="submit" name="submit" value="potrdi"><input type="reset" name="reset" value="Reset">'; //submit+reset		
 			
@@ -53,8 +53,8 @@ switch(akce) {
 	 bolnisnica= '<input type="text" id="bolnisnicaId" name="bolnisnica" value="" placeholder="Bolnišnica" required>';
 	ime= '<input type="text" id="imeId" name="ime" value="" placeholder="tveganje" required>';
     ocena= '<input type="text" id="ocenaId" name="ocena" value="" placeholder="ocena" required>';
-    status= '<input type="int" id="statusId" name="status" value="" placeholder="status" required>';
-    document.getElementById("demo").innerHTML = bolnisnica + ime + ocena + status;
+    ocenaStatus= '<input type="int" id="statusId" name="ocenaStatus" value="" placeholder="ocenaStatus" required>';
+    document.getElementById("demo").innerHTML = bolnisnica + ime + ocena + ocenaStatus;
 	document.getElementById("tabSent").innerHTML =  '<input type="hidden" name="tabulka" value="'+tabulka+'">';
 	document.getElementById("posli").innerHTML = '<input class="submit" type="submit" name="submit" value="potrdi"><input type="reset" name="reset" value="Reset">'; //submit+reset
 			
@@ -75,8 +75,8 @@ switch(akce) {
 			//alert(tabulka);	
 	bolnisnica= '<input type="text" id="bolnisnicaId" name="bolnisnica" value="" placeholder="Bolnišnica" required>';
     sklep= '<input type="text" id="sklepId" name="sklep" value="" placeholder="sklep" required>';
-    status= '<input type="int" id="statusId" name="status" value="" placeholder="status" required>';
-    document.getElementById("demo").innerHTML = bolnisnica + sklep + status;
+    sklepiStatus= '<input type="int" id="statusId" name="sklepiStatus" value="" placeholder="sklepiStatus" required>';
+    document.getElementById("demo").innerHTML = bolnisnica + sklep + sklepiStatus;
 	document.getElementById("tabSent").innerHTML =  '<input type="hidden" name="tabulka" value="'+tabulka+'">';
 	document.getElementById("posli").innerHTML = '<input class="submit" type="submit" name="submit" value="potrdi"><input type="reset" name="reset" value="Reset">'; //submit+reset
 
@@ -86,8 +86,8 @@ switch(akce) {
      bolnisnica= '<input type="text" id="bolnisnicaId" name="bolnisnica" value="" placeholder="Bolnišnica" required>';
     ime= '<input type="text" id="imeId" name="ime" value="" placeholder="ime" required>';
     priimek= '<input type="text" id="priimekId" name="priimek" value="" placeholder="priimek" required>';
-    status= '<input type="int" id="statusId" name="status" value="" placeholder="status" required>';
-    document.getElementById("demo").innerHTML = bolnisnica + ime + priimek + status;
+    upstatus= '<input type="int" id="upstatusId" name="upstatus" value="" placeholder="upstatus" required>';
+    document.getElementById("demo").innerHTML = bolnisnica + ime + priimek + upstatus;
 	document.getElementById("tabSent").innerHTML =  '<input type="hidden" name="tabulka" value="'+tabulka+'">';
 	document.getElementById("posli").innerHTML = '<input class="submit" type="submit" name="submit" value="potrdi"><input type="reset" name="reset" value="Reset">'; //submit+reset
 	        break;			

@@ -4,7 +4,7 @@ require_once '../skupne/database.php';
 Class PoberZapis{
 	public $conn;
 	public $zaklad;
-	public $status;
+	public $upstatus;
 	public $pristop;	
 	public function __construct($id) {
  $this->id = $id;

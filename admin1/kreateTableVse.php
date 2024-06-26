@@ -65,7 +65,7 @@ $definice= "id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 	`geslo` varchar(255) CHARACTER SET utf8 COLLATE utf8_slovenian_ci NOT NULL,
 	`ime` varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
 	`priimek` varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
-    `status` int(3) NOT NULL,
+    `upstatus` int(3) NOT NULL,
     `pristop` int(3) NOT NULL,	
 	UNIQUE (email, uname)";
 $databaseGloboka->naredi('uporabnikiTbl2', $definice);
@@ -87,7 +87,7 @@ $definice= "id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 	`bolnisnica` varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,		
 	`ime` varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
 	`ocena` varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,	
-    `status` int(3) NOT NULL";
+    `ocenaStatus` int(3) NOT NULL";
 $databaseGloboka->naredi('ocenaTbl', $definice);
 break;
 
@@ -97,7 +97,7 @@ $definice= "id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 	`bolnisnica` varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,	
 	`ime` varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
 	`priimek` varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
-    `status` int(3) NOT NULL";
+    `pregledovalciStatus` int(3) NOT NULL";
 $databaseGloboka->naredi('pregledovalciTbl', $definice);
 break;
 
@@ -105,7 +105,7 @@ case "bolnisnice":
 $definice= "id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 	mesto varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
 	nazivB varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
-    status int(3) NOT NULL,
+    bolnisnicaStatus int(3) NOT NULL,
     reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP";
 $databaseGloboka->naredi('bolnisniceTbl', $definice);
 break;
@@ -114,7 +114,7 @@ case "sklepi":
 $definice= "id INT(3) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 	`bolnisnica` varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,	
 	`sklep` varchar(255) CHARACTER SET utf8 COLLATE utf8_czech_ci NOT NULL,
-    `status` int(3) NOT NULL";
+    `sklepiStatus` int(3) NOT NULL";
 $databaseGloboka->naredi('sklepiTbl', $definice);
 break;
 
@@ -166,7 +166,7 @@ premedVecer VARCHAR(100),
 premedPredOp VARCHAR(100),
 premedikacija VARCHAR(255),
 sklep VARCHAR(255),
-status CHARACTER(15)";
+bolnikStatus CHARACTER(15)";
 $databaseGloboka->naredi('bolnikTbl', $definice);
 break;
 

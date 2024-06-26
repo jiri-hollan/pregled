@@ -22,8 +22,8 @@ switch(akce) {
     bolnisnica= '<input type="text" id="bolnisnicaId" name="bolnisnica" value="" placeholder="Bolnišnica" required>';
 	ime= '<input type="text" id="imeId" name="ime" value="" placeholder="tveganje" required>';
     ocena= '<input type="text" id="ocenaId" name="ocena" value="" placeholder="ocena" required>';
-    status= '<input type="int" id="statusId" name="status" value="" placeholder="status" required>';
-    document.getElementById("demo").innerHTML = bolnisnica + ime + ocena + status;
+    ocenaStatus= '<input type="int" id="ocenaStatusId" name="ocenaStatus" value="" placeholder="ocenaStatus" required>';
+    document.getElementById("demo").innerHTML = bolnisnica + ime + ocena + ocenaStatus;
 	document.getElementById("tabSent").innerHTML =  '<input type="hidden" name="tabulka" value="'+tabulka+'">';
 	document.getElementById("posli").innerHTML = '<input class="submit" type="submit" name="submit" value="potrdi"><input type="reset" name="reset" value="Reset">'; //submit+reset
     break;
