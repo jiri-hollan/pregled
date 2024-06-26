@@ -49,7 +49,7 @@ case "uredi":
 	$status = test_input($_POST["status"]);
 	$pristop = test_input($_POST["pristop"]);	
 	$podminka = array("id"=>$id);
-    $data= array("ime"=>$ime, "priimek"=>$priimek, "status"=>$status, "pristop"=>$pristop);	
+    $data= array("ime"=>$ime, "priimek"=>$priimek, "status"=>$upstatus, "pristop"=>$pristop);	
 	$aktualizuj = new database($tabulka,$data,$podminka);
 	$aktualizovano=$aktualizuj->aktualizuj($tabulka,$data,$podminka);
    break;
@@ -97,7 +97,7 @@ function vyberFunction($podminka){
 echo "<br>";
 if(count($vybrano)>0){
   echo "<table id='osebe' style='border: solid 1px black;'>";
-  echo "<tr><th>Id</th><th>e-mail</><th>uporabnik</th><th>geslo</th><th>ime</th><th>priimek</th><th>status</th><th>pristop</th></tr>";
+  echo "<tr><th>Id</th><th>e-mail</><th>uporabnik</th><th>geslo</th><th>ime</th><th>priimek</th><th>upstatus</th><th>pristop</th></tr>";
 
 class TableRows extends RecursiveIteratorIterator {
     function __construct($it) {
@@ -160,7 +160,7 @@ function editFunction($podminka){
       if($key=="id"||$key=="ime"||$key=="priimek"){
 	   echo " $key: <input name=$key value=$value readonly\n></input>";	
 }	 
-     if($key=="status"||$key=="pristop"){	
+     if($key=="upstatus"||$key=="pristop"){	
 	  echo " $key: <input name=$key value=$value \n></input>";
 }	
 }//od foreach
