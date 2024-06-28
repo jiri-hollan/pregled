@@ -14,7 +14,7 @@ echo '
 <form method="post" action="../skupne/ogledTabele.php">
 <input type="hidden"  name="nazaj" value="'.$nazaj.'">
 <input type="submit"  name="imeTable" value="besedilaTbl">
-<input type="submit"  name="imeTable" value="uporabnikiTbl2">
+<input type="submit"  name="imeTable" value="uporabnikiTbl">
 <input type="submit"  name="imeTable" value="pregledovalciTbl">
 <input type="submit"  name="imeTable" value="limitiTbl">
 <!--<input type="submit"  name="imeTable" value="ocenaTbl">-->

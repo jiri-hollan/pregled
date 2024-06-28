@@ -43,7 +43,7 @@ try {
 	//var_dump ($this->data);
     //var_dump ($data);
 	
-	$uporabnikiIzbrani = $this->conn->vyber('uporabnikiTbl2', array('id', 'email', 'uname', 'ime', 'priimek', 'upstatus', 'pristop'), $this->data);
+	$uporabnikiIzbrani = $this->conn->vyber('uporabnikiTbl', array('id', 'email', 'uname', 'ime', 'priimek', 'upstatus', 'pristop'), $this->data);
 	//var_dump($uporabnikiIzbrani);
 	//--------------------------------------------------------
    
