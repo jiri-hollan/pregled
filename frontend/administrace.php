@@ -44,8 +44,6 @@ class Administrace {
 		   exit();
 	  } else {
 		  $this->conn = new Database();
-	  }
-//od construct	  
-	}
-//0d class administrace	
-}
+	  } 
+	}//od construct	
+}//0d class administrace	
