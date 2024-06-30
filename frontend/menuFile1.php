@@ -1,7 +1,6 @@
 <?php
 //echo 'Menu anestiz';
 require_once('administrace.php');
-
 class MenuAnestiz  {
    public function __construct() {
    require_once('../skupne/menu-items.php');          
