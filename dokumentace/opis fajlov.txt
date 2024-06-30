@@ -1,0 +1,3 @@
+locallhost/pregled aktivira index.php
+index.php:headr naj bi preprečil cache, title ne naredi nič.Vprašanje je, kaj od kode v <head> sploh ima smisla.    
+          <meta http-equiv="refresh" content="0;url=frontend/menuFile1.php" preusmeri na menufile1.php.
