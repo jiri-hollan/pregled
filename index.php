@@ -13,5 +13,8 @@ header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
    <link rel="shortcut icon" href="favicon.ico?<?php echo time(); ?>">
 </head>
  <body>
- </body>  
+ <?PHP
+ include_once "skupne/pregledovalciKomb.php";
+ ?>
+ </body>   
 </html>
