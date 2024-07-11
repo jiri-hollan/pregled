@@ -29,10 +29,10 @@ echo '
 <li><a href="pokaziStolpce.php?nazaj='.$nazaj.'">pokaži Stolpce</a></li>
 <li><a href="serverInformace.php?nazaj='.$nazaj.'">Informace o serveru</a></li>
 </ul>
-<h1>Menu premedikacija</h1>
+<h1>Menu apregled</h1>
 <ul id="linky1">
 
-<li><a href="kreateBasepremedikacija.php?nazaj='.$nazaj.'">naredi bazo: premedikacija</a></li>
+<li><a href="kreateBaseapregled.php?nazaj='.$nazaj.'">naredi bazo: apregled</a></li>
 <li><a href="kreateTableVse.php?nazaj='.$nazaj.'">naredi tabele</a></li>
 </ul>
 ';
