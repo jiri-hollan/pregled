@@ -10,7 +10,11 @@ echo '
 <ul>';
   if (isset($_SESSION["upstatus"]))  {
 	  //require_once('../skupne/menu-items.php'); 
-	   switch ($_SESSION["upstatus"]) {		   
+	   switch ($_SESSION["upstatus"]) {	
+	case 0:
+      echo $a0;
+	  echo "<p style='color: black;'>vaša registracija še ni overjena</>"; 
+   break;	  
 	case 1:
 	  echo $a0.$a1;
     break;   
